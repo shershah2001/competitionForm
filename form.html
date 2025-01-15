@@ -170,12 +170,14 @@
                 <div class="mb-3">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 d-flex align-items-center">
-                            <label for="floatingTextarea2">Comments</label>
+                            <label for="floatingTextarea2">Write Essay</label>
                         </div>
                         <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                            <!-- <textarea class="form-control" placeholder="Write Your Essay Here" id="floatingTextarea2"
                                 style="height: 100px">
-                            </textarea>
+                            </textarea> -->
+                            <textarea class="form-control" id="textarea" placeholder="Write Your Essay Here"
+                                style="height: 100px"></textarea>
                             <span id="textareaError" class="text-danger fw-bolder mt-1"
                                 style="font-size:0.7rem;"></span>
                         </div>
@@ -204,7 +206,7 @@
             const competitionCategory = document.querySelector("#competition-category")
             const googleDriveLink = document.querySelector("#google-drive-link");
             const options = document.querySelectorAll("input[name='flexRadioDefault']");
-            const textarea = document.querySelector("#floatingTextarea2");
+            const textarea = document.querySelector("#textarea");
             // console.log("==>", name, mobile, email, city, age, BirthDay, competitionCategory, googleDriveLink);
 
 
